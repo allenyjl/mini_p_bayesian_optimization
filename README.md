@@ -97,18 +97,6 @@ camber,root_chord,trip_chord,corner_radius,angle_of_attack,ld_ratio,rpm,vibratio
 
 ---
 
-## 🧰 Notebook Files
-
-| File | Purpose |
-|------|----------|
-| `propeller_multitask_only.ipynb` | Main Colab notebook for multi-task GP optimization |
-| `propeller_bo_upload_and_run.ipynb` | Simpler upload/run notebook (can fall back to single-task GP) |
-| `dummy_multitask_propeller_data.csv` | Synthetic example dataset for testing |
-| `README_Flyer_BO.md` | Detailed explanation of BO/MTGP methods |
-| `Flyer_ML_Optimization_Context.txt` | Concise summary used to initialize LLM context |
-
----
-
 ## 🧠 How the BO Loop Works
 
 1. **Data Input:** CSV with experimental results.  
